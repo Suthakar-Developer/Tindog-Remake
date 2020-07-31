@@ -1,0 +1,173 @@
+#title {
+  padding-bottom: 6%;
+  background-color: #ff4c68;
+  color: #fff;
+  margin-bottom: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: 3.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto 10px;
+}
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: lighter;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-weight: lighter;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 1px;
+  top: 80px;
+}
+#features {
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+.contains {
+  margin: 6rem auto;
+  padding: 1rem 2rem;
+}
+.inner-contains {
+  margin: 2rem auto;
+  text-align: center;
+  padding: 5%;
+}
+.icons {
+  font-size: 4rem;
+  color: #ef8172;
+  padding: 1rem 0 2rem;
+}
+.desc {
+  color: grey;
+}
+.icons:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 20%;
+  padding: 10% 3%;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-images {
+  width: 10%;
+  margin: 0 10px 30px;
+}
+.carousel-item {
+  padding: 3% 15%;
+}
+#pricing {
+  padding: 100px;
+}
+.price-card {
+  padding: 50px;
+}
+.card-item {
+  text-align: center;
+  padding: 20px;
+}
+.ch {
+  border: 1px solid #ef8172;
+  background-color: #ef8172;
+}
+.cb {
+  border: 1px solid #ef8172;
+}
+.ph {
+  text-align: center;
+}
+.pd {
+  text-align: center;
+}
+.price-head {
+  color: white;
+}
+.card-item:hover {
+  color: #ff4c68;
+}
+.row {
+  margin: 0;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta {
+  color: #fff;
+  text-align: center;
+  padding: 5% 3%;
+  background-color: #ff4c68;
+}
+.fd {
+  font-size: 2.4rem;
+}
+#footer {
+  text-align: center;
+  margin: 4% auto;
+}
+.fb {
+  margin: 5px 12px 20px;
+}
